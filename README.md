@@ -1,5 +1,8 @@
-# ref-sunbirdrc-certificate
+## ref-sunbirdrc-certificate
 Reference sample of certificate registry using Sunbird RC
+
+# Run your own certificate registry in 5 minutes 
+
 
 Prerequesite:
 * docker
