@@ -109,6 +109,10 @@ services:
       - PORT=8078
     ports:
       - "8078:8078"
+  verification-ui:
+    image: tejashjl/verification
+    ports:
+      - "80:80"
 
 #  file-storage:
 #    image: quay.io/minio/minio
