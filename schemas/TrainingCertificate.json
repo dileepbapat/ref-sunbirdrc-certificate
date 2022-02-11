@@ -43,13 +43,7 @@
     "uniqueIndexFields": [
       "contact"
     ],
-    "ownershipAttributes": [
-      {
-        "mobile": "/contact",
-        "userId": "/contact",
-        "email": "/contact"
-      }
-    ],
+    "ownershipAttributes": [],
     "roles": [
       "admin"
     ],
