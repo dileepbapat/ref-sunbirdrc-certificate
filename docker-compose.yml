@@ -27,7 +27,7 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
   registry:
-    image: dockerhub/sunbird-rc-core
+    image: dockerhub/sunbird-rc-core:v0.0.3
     volumes:
       - ${PWD}/schemas:/home/sunbirdrc/config/public/_schemas
 
@@ -95,13 +95,13 @@ services:
 #      registry:
 #        condition: service_started
   certificate-signer:
-    image: dockerhub/sunbird-rc-certificate-signer
+    image: dockerhub/sunbird-rc-certificate-signer:v0.0.3
     environment:
       - PORT=8079
     ports:
       - "8079:8079"
   certificate-api:
-    image: dockerhub/sunbird-rc-certificate-api
+    image: dockerhub/sunbird-rc-certificate-api:v0.0.3
     volumes:
       - ${PWD}/scripts:/scripts
     entrypoint: ["sh", "/scripts/docker-entrypoint.sh"]
