@@ -63,6 +63,6 @@
       "anonymous"
     ],
     "enableLogin": false,
-    "credentialTemplate": "https://gist.githubusercontent.com/tejash-jl/550aa1365c37e09065f1f134c936530d/raw/54f10668f8cad3953d9b09c09212d4ec4434ae7f/SkillExternalCredentialTemplate.json"
+    "credentialTemplate": "https://gist.githubusercontent.com/tejash-jl/945ff00a1df653516a444da99ab7c79e/raw/bcc331509911e780c7012b5a62ddec8a42c7559f/sampletemplate"
   }
 }
